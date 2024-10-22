@@ -29,7 +29,7 @@ def setup_class(request):
 class TestNavbarBeforelogin:
     def test_open_login_page(self):
         """ทดสอบการเปิดหน้าเว็บ"""
-        self.driver.get("https://voice.botnoi.ai/")
+        self.driver.get("https://example.com/")
         x_btn = self.driver.find_element(By.XPATH, "//mat-icon[@svgicon='close']")
         x_btn.click()
         studio_btn = self.driver.find_element(
@@ -42,7 +42,7 @@ class TestNavbarBeforelogin:
 
     def test_voice_page(self):
         """กดเมนู เสียงพากย์"""
-        self.driver.get("https://voice.botnoi.ai/")
+        self.driver.get("https://example.com/")
         x_btn = self.driver.find_element(By.XPATH, "//mat-icon[@svgicon='close']")
         x_btn.click()
         voice_btn = self.driver.find_element(
