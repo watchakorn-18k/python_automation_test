@@ -2,6 +2,9 @@
 ```
 pip install selenium webdriver-manager
 pip install pytest pytest-html
+pip install py
+or
+pip install -r requirements.txt
 ```
 
 # Usage
