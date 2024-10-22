@@ -1,0 +1,9 @@
+.pytest_cache
+.vscode
+_env
+__pycache__
+/*.pyc
+*.pyo
+*/__pycache__/*
+assets
+test_report.html
